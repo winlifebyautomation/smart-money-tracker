@@ -1,5 +1,6 @@
 import TradesList from '@/components/TradesList'
 import Correlations from '@/components/Correlations'
+import FederalContracts from '@/components/FederalContracts'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <p className="mt-4 text-gray-600">Track where politicians and insiders invest</p>
       
       <Correlations />
+      <FederalContracts />
       <TradesList />
     </main>
   )
